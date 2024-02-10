@@ -1,0 +1,132 @@
+html{
+height: 100%;
+}
+body{
+min-height: 100%;
+background-color:#012530 ;
+}
+.main{
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.add-btn-div{
+position: absolute;
+right: 5%;
+bottom: 3%;
+width: 15%;
+}
+.add-btn{
+width: 100%;
+font-size: 1.2rem;
+height: 7vh;
+display: flex;
+align-items: center;
+justify-content: space-around;
+background-color: #FFD700;
+}
+
+.row{
+display: flex;
+width: 100%;
+
+
+}
+.options{
+color: white;
+}
+.card{
+display: flex;
+padding-top: 1.7%;
+width: 85%;
+height: auto;
+padding-bottom: 1.7%;
+border: #FFF5BF;
+border-bottom: solid white 2px;
+
+justify-content: space-around;
+}
+.row button{
+background-color: #FFF5BF;
+width: 100%;
+height: 7vh;
+font-size: 1rem;
+}
+.card-left-section{
+display: flex;
+flex-direction: column;
+row-gap: 1vh;
+justify-content: space-between;
+}
+.card-details{
+font-family: Inter;
+color: #B4B4B4;
+
+}
+.search-div{
+display: flex;
+justify-content: space-around;
+width: 70%;
+margin-top: 3%;
+margin-bottom: 1.3%;
+align-items: center;
+
+}
+.choose{
+display: flex;
+justify-content: center;
+}
+.search-box{
+flex: 1;
+font-size: 1rem;
+max-width: 50%;
+height: 6vh;
+padding-left: 2%;
+border-radius: 5px;
+background-color: #012530;
+border: white solid 2px;
+}
+.options{
+display: flex;
+width: 100%;
+font-family: Inter;
+flex-shrink: 0;
+
+}
+.card-text{
+font-family: Inter;
+font-size: 1.4rem;
+color: white;
+line-height: 140%;
+}
+.card-right-section{
+display: flex;
+align-items: center;
+}
+
+.answer-card{
+width: 85%;
+display: flex;
+flex-direction: column;
+border-bottom: solid white 2px;;
+padding-bottom: 1.7%;
+}
+.details{
+display: flex;
+align-items: start;
+font-size: 1rem;
+color: #B4B4B4;
+font-family: Inter;
+margin-bottom: 1.2%;
+margin-top: 1.2%;
+
+}
+.paragraph{
+color: #B4B4B4;
+font-size: 1rem;
+font-family: Inter;
+line-height: 135%;
+
+}
+
